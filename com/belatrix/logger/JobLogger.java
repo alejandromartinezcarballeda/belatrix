@@ -2,6 +2,7 @@ package com.belatrix.logger;
 
 import com.belatrix.LogType;
 
+// abstract class so it can not be instantiated
 public abstract class JobLogger {
 	
 	public static void logMessage(String messageText, 
